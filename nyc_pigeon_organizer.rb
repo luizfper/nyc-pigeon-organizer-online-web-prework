@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
   pigeon_hash={}
   data.each do |attributes, value|
     value.each do |result,names|
-      puts attributes
+      #puts attributes
       names.each do |name|
         pigeon_hash[name]=result
       end
