@@ -24,10 +24,11 @@ def nyc_pigeon_organizer(data)
   data.each do |attributes, value|
     value.each do |result,names|
       names.each do |name|
-        pigeon_hash[name][value]=result
+        pigeon_hash[name]=result
       end
     end
   end
+  puts pigeon_hash
 end
 
 nyc_pigeon_organizer(pigeon_data)
