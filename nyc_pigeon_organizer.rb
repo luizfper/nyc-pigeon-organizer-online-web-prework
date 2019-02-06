@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list=[]
   attributes_list=[]
   pigeon_hash={}
-  pigeon_hash[:asdasd][:asdasd]
+  pigeon_hash[:asdasd][:asdasd]="asdasd"
   data.each do |attribut, value|
     value.each do |result,names|
       #puts attributes
