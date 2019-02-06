@@ -26,12 +26,48 @@ def nyc_pigeon_organizer(data)
       #puts attributes
       names.each do |name|
         #puts result
-        pigeon_hash[name]=attribut=>result
+        pigeon_hash[name]=[attribut=>result]
         #pigeon_hash[name]={attributes=>result
       end
     end
   end
-  puts pigeon_hash
+  pigeon_list = {
+  "Theo" => {
+    :color => ["purple", "grey"],
+    :gender => ["male"],
+    :lives => ["Subway"]
+  },
+  "Peter Jr." => {
+    :color => ["purple", "grey"],
+    :gender => ["male"],
+    :lives => ["Library"]
+  },
+  "Lucky" => {
+    :color => ["purple"],
+    :gender => ["male"],
+    :lives => ["Central Park"]
+  },
+  "Ms. K" => {
+    :color => ["grey", "white"],
+    :gender => ["female"],
+    :lives => ["Central Park"]
+  },
+  "Queenie" => {
+    :color => ["white", "brown"],
+    :gender => ["female"],
+    :lives => ["Subway"]
+  },
+  "Andrew" => {
+    :color => ["white"],
+    :gender => ["male"],
+    :lives => ["City Hall"]
+  },
+  "Alex" => {
+    :color => ["white", "brown"],
+    :gender => ["male"],
+    :lives => ["Central Park"]
+  }
+}
 end
 
 nyc_pigeon_organizer(pigeon_data)
